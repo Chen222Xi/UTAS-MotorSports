@@ -1,8 +1,7 @@
 <?php get_header(); ?>
 
 <main>
-  <div class="container"><!-- ⬅️ 全页面容器开始 -->
-
+  <div class="container">
     <!-- Hero Banner -->
     <section class="hero-banner">
       <img class="section-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/hero.jpg" alt="UTAS Motorsport">
@@ -13,23 +12,24 @@
     <section class="about-us">
       <h2>The University of Tasmania Motorsport team</h2>
       <p class="about-text">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. A student-driven Formula SAE team at UTAS...
+        The best reward in Formula SAE-A 2024
       </p>
       <div class="card-row">
       <div class="card">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/icons/retired-combustion.png" alt="1st">
-        <h3>1st</h3>
-        <p>Retired Combustion</p>
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/icons/cost.png" alt="1st">
+        <h3>2nd</h3>
+        <p>Lest COST </p>
       </div>
       <div class="card">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/icons/driverless.png" alt="Driverless">
-        <h3>NEW</h3>
-        <p>Australian SAE First</p>
+      <img src="<?php echo get_template_directory_uri(); ?>/assets/icons/10th.png" alt="10th Place UTAS">
+      <h3>10th Place</h3>
+      <p>Overall at Australian Formula SAE 2024</p>
       </div>
+
       <div class="card">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/icons/electric.png" alt="Electric">
-        <h3>10th</h3>
-        <p>Formula Student World Ranking</p>
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/icons/efficiency.png" alt="Electric">
+        <h3>2nd</h3>
+        <p>Most Efficiency</p>
       </div>
     </div>
 

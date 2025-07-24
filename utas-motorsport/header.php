@@ -15,7 +15,8 @@
     <nav class="main-nav">
       <ul>
         <li><a href="/">HOME</a></li>
-        <li><a href="/about">ABOUT US</a></li>
+        <li><a href="<?php echo site_url('/about-us/'); ?>">ABOUT US</a></li>
+
         <li><a href="<?php echo site_url('/past-cars'); ?>">PAST CARS</a>        </li>
         <li><a href="/blog">BLOGS</a></li>
         <li><a href="/sponsors">SPONSORS</a></li>
